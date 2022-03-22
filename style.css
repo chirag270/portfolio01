@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aqua;
+}
+
+
+.navbar{
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    /* justify-content: center; */
+    margin-left: 5px;
+    border-radius: 10px solid 20px;
+    border-color: azure;
+
+    ;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+}
+
+
+li{
+    /* display: inline; */
+    float: left;
+
+}
+
+a {
+    display: block;
+    padding: 50px;
+    background-color: #dddddd;
+}
+
+
+/* for home.html */
+
+.container{
+
+    width: 100%;
+    height: 100vh;
+
+    /* center of the web page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container-projects{
+    width: 50%;
+    height: 100vh;
+
+    /* center of the web page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* space between title and embed link */
+
+h1{
+    color: #333;
+    margin-bottom: 60px;
+    
+}
+
+
+iframe{
+
+    width: 80%;
+    height: 300px;
+
+
+    /* turn this dark mode to light mode */
+    /* filter: invert(100%); */
+
+    
+}
+
+
+.projects-added{
+
+    display: block;
+    flex: content;
+    justify-content: center;
+    padding: 50px;
+    background-color: #dddddd;
+
+}
